@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero {
+    background-image: url('../assets/chauhan-moniz-3A0bs74T8zc-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+    #hero {
+        background-image: url("https://i.pinimg.com/564x/e2/99/fc/e299fc75f46f3a8a3a863b480ebda12a.jpg");
+        background-position: center;
+    }
+    
+}
+
+.hamburger{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom{
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transition: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle{
+    transform: translateY(7px)
+}
+
+.hamburger-bottom{
+    transform: translateY(14px)
+}
+
+.open{
+    transform: rotate(90deg)
+}
+
+.open .hamburger-top{
+    transform: rotate(45deg) translateY(6px) translateX(6px)
+}
+.open .hamburger-middle {
+    display: none
+}
+
+.open .hamburger-bottom{
+    transform: rotate(-45deg) translateY(6px) translateX(-6px)
+}
+
+#card-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    margin: 0.75rem;
+    margin-top: 2.5rem;
+    background-color: rgb(255 255 255);
+    border-radius: 1rem;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+#serviceImg{
+    margin-left: auto;
+    margin-right: auto;
+}
+#serviceImg :hover {
+    --transform-scale-x: 1.05;
+    --transform-scale-y: 1.05; 
+}
+#conent-container{
+    display: flex; 
+    margin-top: 1.5rem; 
+    flex-direction: column; 
+}
+
+#label{
+    display: flex; 
+    margin-bottom: 1rem; 
+    margin-top: 0.75rem; 
+    margin-top: 0.875rem; 
+    text-align: center; 
+    flex-direction: column; 
+}
+
+#y{
+    display: inline-block;
+    padding-left: 0.75rem; /* 12px */
+    padding-right: 0.75rem; /* 12px */
+    padding-top: 2.5rem; /* 40px */
+    padding-bottom: 2.5rem; /* 40px */
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    background-color: #000000; 
+    color: #ffffff;
+    border-radius: 9999px; 
+}
+
+#des{
+    max-width: 24rem; /* 384px */
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500; 
+}
+
+@media (min-width: 768px) and (max-width: 976px) {
+    #card-container{
+        flex-direction: row;
+        margin-top: 0px;
+        margin-left: 2.5rem;
+        margin: 0px;
+        padding:16
+    }
+    #label {
+        text-align: left; 
+    }
+    
+}
+@media (min-width: 976px) and (max-width: 1440px) {
+    #card-container{
+        flex-direction: row; 
+        margin-top: 0px;
+        margin-left: 2.5rem;
+        margin: 0px;
+        padding:16
+    }
+    #label {
+        text-align: left; 
+    }
+}
+
+
+
+/* //div.classList.add('flex', 'flex-col', 'p-6', 'm-3', 'space-y-10', 'bg-white', 'rounded-2xl', 'shadow-2xl', 'md:flex-row', 'md:space-y-0', 'md:space-x-10', 'md:m-0', 'md:p-16') */

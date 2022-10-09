@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Hero section -->
+    <section id="hero">
+        <!-- Hero Container -->
+        <div class="container max-w-6xl mx-auto px-6 py-12">
+            <!-- Menu/Logo Continer -->
+            <nav class="flex items-center justify-between font-bold text-white">
+                <!-- Logo -->
+                <img class="" src="./assets/62b09c64500e4d23a90600f92fcf9bf0-removebg-preview (1).png" alt="Logo" />
+                <!-- Menu -->
+                <div class="hidden h-10 font-alata md:flex md:space-x-8">
+                    <div class="group">
+                        <a href="./shop.html">shop</a>
+                        <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                    </div>
+                    <div class="group">
+                        <a href="./contact.html">Contact</a>
+                        <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                    </div>
+                    <div class="group">
+                        <a href="./index.html">Home</a>
+                        <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                    </div>
+                </div>
+                <!-- Do: Hamburger button -->
+                <div class="md:hidden">
+                    <button id="ham-stack" type="button" class="z-40 block hamburger md:hidden focus:outline-none">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                </div>
+            </nav>
+            <!-- Do: Mobile menu -->
+            <div id="menu"
+                class="absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-2 text-lg text-white uppercase bg-black">
+                <a href="./shop.html" class="hover:text-blue-300">Shop</a>
+                <a href="./contact.html" class="hover:text-blue-300">Contact</a>
+                <a href="./index.html" class="hover:text-blue-300">Home</a>
+            </div>
+        </div>
+    </section>
+    <!-- Feature Section -->
+
+    <section id="contactForm">
+
+        <div class="flex items-center justify-center min-h-screen bg-blue-50">
+            <div
+                class="relative flex flex-col m- space-y-10 bg-white shadow-2xl rounded-2xl md:flex-row space-y-0 md:m-0">
+                <!-- left side -->
+                <div class="p-6 md:20">
+                    <h2 class="mb-5 text-4xl font-bold">
+                        Contact Form
+                    </h2>
+                    <p class="max-w-sm mb-12 font-sans font-light text-gray-60">
+                        Please fill out all boxes responce wihtin 2 hours
+                    </p>
+                    <form action="">
+                    <input
+                        class="w-full p-6 border border border-gray-300 rounded-md placeholder placeholder:font-light"
+                        placeholder="Full name" type="text" required>
+                    <div class="flex flex-col md:flex-row">
+                    <input
+                        class="w-full p-6 border border border-gray-300 rounded-md placeholder placeholder:font-light md:w-auto"
+                        placeholder="Phone Number" type="tel" maxlength="10" required>
+                    <input
+                        class="w-full p-6 border border border-gray-300 rounded-md placeholder placeholder:font-light md:w-auto"
+                        placeholder="email" type="email" id="email" name="email" required>
+                    </div>
+                    <div class="2-full">
+                        <input
+                        class="w-full p-6 border border border-gray-300 rounded-md placeholder placeholder:font-light "
+                        placeholder="Message" type="email" id="email" name="email" required>
+                    </div>
+                    </div>
+                    <div class="flex flex-col items-center justify-center mt-6 space-y-6 md:flex-row md:space-y-0">
+                        <button class="w-full  flex justify-center items-center p-6 space-x-4 font-sans font-bold text-white rounded-md shadow-lg px-9 bg-cyan-700 shadow-cyan-100 hover:bg-opacity-909 shadow-sm hover:shadow-lg border transition hover:-translate-y-0.5 duration-150 ">
+                            <span>Submit</span>
+                        </button>
+                    </div>
+                </form>
+                </div>
+            </div>
+            <!-- Right Side -->
+        </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black">
+        <div class="container max-w-6xl py-10 mx-auto">
+            <div
+                class="flex flex-col items-center mb-8 space-y-6 md:flex-row md:space-y-0 md:justify-between md:items-start">
+                <!-- page links  -->
+                <div class="flex flex-col items-center space-y-8 md:items-start md:space-y-4">
+                    <!-- logo -->
+                    <div class="h-8">
+                        <h1 class="text-white w-44 md:ml-3 font-bold">Mountingly</h1>
+                    </div> -->
+                    <!-- links container-->
+                    <div
+                        class="flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y:0 md:space-x-6 md:ml-3">
+                        <div class="h-10 mt-4 group">
+                            <a class="mt-10" href="#">about</a>
+                            <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                        </div>
+                        <div class="h-10 group">
+                            <a href="#">Shop</a>
+                            <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                        </div>
+                        <div class="h-10 group">
+                            <a href="#">contact</a>
+                            <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Social Icons and copright -->
+                <div class="flex flex-col items-start justify-between space-y-4 text-gray-500">
+                    <!-- social icons container -->
+                    <div class="flex items-center justify-center space-x-4 mx-auto md:justify-end md:mx-0">
+                        <div class="h-8-group">
+                            <a href="#">
+                                <img src="./assets/icon-twitter.svg" alt="" class="h-6">
+                            </a>
+                        </div>
+                        <div class="h-8-group">
+                            <a href="#">
+                                <img src="./assets/icon-facebook.svg" alt="" class="h-6">
+                            </a>
+                        </div>
+                        <div class="h-8-group">
+                            <a href="#">
+                                <img src="./assets/icon-instagram.svg" alt="" class="h-6">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="font-bold mr-5">
+                        &copy; 2022 Mountingly
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+</body>
+<script src="./index.js"></script>
+
+</html>

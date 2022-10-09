@@ -1,0 +1,76 @@
+{
+     "services": [
+          {
+               "name": "Basic TV mountig",
+               "price": 125,
+               "photo": "https://images.unsplash.com/photo-1588426154611-f47651357c3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2054&q=80",
+               "des": "Includes one tv mountng. No demo no external device setup"
+          },
+          {
+               "name": "Wire management",
+               "price": 125,
+               "photo": "https://images.unsplash.com/photo-1623177623442-979c1e42c255?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+               "des": "Manage cables from your computer media area or rack"
+          },
+          {
+               "name": "Smart home set",
+               "price": 125,
+               "photo": "https://images.unsplash.com/photo-1514803400321-3ca29fc47334?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80",
+               "des": "Inludes one hub and upto 5 connected devices"
+          },
+          {
+               "name": " Advance TV Mounting",
+               "price": 125,
+               "photo": "https://images.unsplash.com/photo-1503796627019-324e68809dc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2050&q=80",
+               "des": "Includes Wire management demoo and setup of up to five devices"
+          },
+          {
+               "name": "In wall Power",
+               "price": 125,
+               "photo": "https://images.unsplash.com/photo-1586024486164-ce9b3d87e09f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2178&q=80",
+               "des": "Install an in wall power kit *Depending on wall"
+          },
+          {
+               "name": "Tv uninstall",
+               "price": 125,
+               "photo": "https://images.unsplash.com/photo-1520038410233-7141be7e6f97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80",
+               "des": "Uninstall one tv"
+          },
+          {
+               "name": "soundbar mount",
+               "price": 125,
+               "photo": "https://images.unsplash.com/photo-1557376382-e96b6778ffdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231&q=80",
+               "des": "Mount and connect soundbar. Does not include sonos or bose "
+          },
+          {
+               "name": "troubleshoot",
+               "price": 125,
+               "photo": "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80",
+               "des": "Computer and televion issues"
+          },
+          {
+               "name": "reciver",
+               "price": 125,
+               "photo": "https://images.unsplash.com/photo-1615297658577-dc5cec88e81a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+               "des": "Setup reciver to tv or media rack "
+          },
+          {
+               "name": "5.2 surround",
+               "price": 125,
+               "photo": "https://images.unsplash.com/photo-1545454675-3531b543be5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+               "des": "Manage speaker wire and reciver setup for 5.1 surround sound sysetm "
+          },
+          {
+               "name": "7.1 surround",
+               "price": 125,
+               "photo": "https://images.unsplash.com/photo-1545454675-3531b543be5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+               "des": "Manage speaker wire and reciver setup for 7.1 surround sound sysetm "
+          },
+          {
+               "name": "Projector",
+               "price": 125,
+               "photo": "https://images.unsplash.com/photo-1589113050289-1c654e7e305d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+               "des": "Install and setup projector "
+          }
+     ]
+}
