@@ -36,7 +36,7 @@ function loppThroughResponse(services) {
 }
 
 function generateHTML(service){
-    return `<div class="flex flex-col md:w-[33.3%] p-6 m-3 space-y-10 bg-white rounded-2xl shadow-2xl md:flex-row md:space-y-10 md:space-x-10 md:m-0 md:p-16 ">
+    return `<div class="flex flex-col md:w-auto xl:w-[33.3%] p-6 m-3 space-y-10 bg-white rounded-2xl shadow-2xl md:flex-row md:space-y-10 md:space-x-10 md:p-16 ">
       
       <!-- Image Div -->
       <div>
